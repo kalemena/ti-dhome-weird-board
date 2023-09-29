@@ -1,0 +1,11 @@
+= Ti-Dhome Web Electricity Router Board
+:toc:
+:hardbreaks:
+
+ifdef::env-github[]
+:imagesdir: /
+endif::[]
+
+== Description
+
+This project is an Open Source / Open Hardware minimal approach to build a Web-accessible Electricity Router Board.
