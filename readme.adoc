@@ -9,3 +9,14 @@ endif::[]
 == Description
 
 This project is an Open Source / Open Hardware minimal approach to build a Web-accessible Electricity Router Board.
+
+Board features:
+
+- have REST API
+- have Web Socket API
+- capture Téléinfo (France Electricity provider serial consumption data)
+- have switchable Main Ppower 230v relays (SSR or not) to force device such as Water heater
+- have programmable fils pilotes (8+) to set orders onto electric heaters 
+- (optional) have accurate temperature / humidity sensor
+
+WARNING: Caution with 230v. Do not use high current.
