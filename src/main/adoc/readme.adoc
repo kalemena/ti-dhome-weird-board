@@ -21,3 +21,15 @@ Board features:
 
 WARNING: Caution with 230v. Do not use high current.WARNING: Caution with 230v. Do not use high current.
 
+The board uses HTTP/REST API as interface.
+Additionaly, simple Web UI is implemented on top of the REST API.
+
+In practice, the Web Relay is used to manage both:
+
+- electric heaters with data wire named link:http://www.planete-domotique.com/blog/2012/01/05/piloter-un-radiateur-grace-a-son-fil-pilote/[fil pilote] which is 230v at very low current
+- electric water heater
+
+The overall devices are ochestrated through Node-Red monitoring and triggering relays or optocouplers.
+
+NOTE: This project is part of a wider link:https://github.com/kalemena/ti-dhome[TiDhome Home Automation] project.
+
