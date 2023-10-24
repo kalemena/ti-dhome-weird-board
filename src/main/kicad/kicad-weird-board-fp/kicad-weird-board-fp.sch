@@ -903,4 +903,15 @@ F 3 "~" H 3800 1100 50  0001 C CNN
 	1    3800 1100
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Interface_Expansion:MCP23017_SP U?
+U 1 1 65E1C25D
+P 2300 4800
+F 0 "U?" H 2300 6081 50  0000 C CNN
+F 1 "MCP23017_SP" H 2300 5990 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 2500 3800 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2500 3700 50  0001 L CNN
+	1    2300 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
