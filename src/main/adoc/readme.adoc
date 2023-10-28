@@ -19,7 +19,7 @@ Board features:
 - have programmable fils pilotes (8+) to set orders onto electric heaters 
 - (optional) have accurate temperature / humidity sensor
 
-WARNING: Caution with 230v. Do not use high current.WARNING: Caution with 230v. Do not use high current.
+WARNING: Caution with 230v. Do not use high current.
 
 The board uses HTTP/REST API as interface.
 Additionaly, simple Web UI is implemented on top of the REST API.
@@ -31,5 +31,29 @@ In practice, the Web Relay is used to manage both:
 
 The overall devices are ochestrated through Node-Red monitoring and triggering relays or optocouplers.
 
-NOTE: This project is part of a wider link:https://github.com/kalemena/ti-dhome[TiDhome Home Automation] project.
+== BOM
+
+Here is list of items to purchase:
+
+.BOM
+[width="80%",cols="3,^2,10",options="header"]
+|=========================================================
+|Component |Quantity |Comment
+
+| Wemos ESP8266 
+or ESP32 with (Wemos-clone pin layout)]
+or newer ESP32-C6, etc | 1 | Any micro-controller should do, provided it has I2C support.
+
+| TLP168J | 16 | 16 Optocouplers with 3.3v data triggers
+
+| MCP23017 | 1 | 
+
+| 4.7k resistors | | 
+| 390 resistors  | | 
+| 1N4007 diodes  | | 
+
+| *Total* | ~ 20€ |
+
+|=========================================================
+
 
