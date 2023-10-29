@@ -56,4 +56,8 @@ or newer ESP32-C6, etc | 1 | Any micro-controller should do, provided it has I2C
 
 |=========================================================
 
+== Components
+
+.MCP23017
+image:MCP23017_SP.jpg[]
 
